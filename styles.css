@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+footer {
+  margin: 70px;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.outer-circle {
+  background-color: black;
+  border-radius: 25%;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 31.5%;
+  top: 26%;
+  z-index: -1;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.btn1 {
+  display: inline-block;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(31, 31, 31);
+  border-radius: 50% 0 0 0;
+}
+
+
+
+.btn2 {
+  display: inline-block;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(31, 31, 31);
+  border-radius: 0 50% 0 0;
+}
+
+.btn3 {
+  display: inline-block;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(31, 31, 31);
+  border-radius: 0 0 0 50%;
+}
+
+.btn4 {
+  display: inline-block;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(31, 31, 31);
+  border-radius: 0 0 50% 0;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
